@@ -1,2 +1,2 @@
 # CSST102-3B-AY2526
-CSST 102: Basic Machine Learning 
+[LINK HERE](https://v-exor.github.io/CSST102-3B-AY2526/)
