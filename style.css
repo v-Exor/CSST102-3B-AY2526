@@ -1,0 +1,128 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background: #0a0a0a; /* black base */
+  color: #e0e0e0;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 2px solid #0ea5e9;
+}
+
+.navbar .logo {
+  color: #0ea5e9;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #0ea5e9;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #0ea5e9, #1e40af);
+  color: #fff;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Content Section */
+.content {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 2rem;
+  display: flex;
+}
+
+.text-box {
+  max-width: 700px;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0ea5e9;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+/* Alignment Controls */
+.left-align {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.right-align {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+/* Cards (Key Concepts) */
+.card {
+  background: #111827;
+  border: 1px solid #1e40af;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 12px rgba(14,165,233,0.2);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(14,165,233,0.4);
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: #38bdf8;
+}
+
+footer {
+  background: #000;
+  color: #888;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  border-top: 2px solid #0ea5e9;
+}
